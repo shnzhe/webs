@@ -1,3 +1,5 @@
+https://github.com/forthealllight/blog/issues/44
+
 你真的懂switch吗？聊聊switch语句中的块级作用域
 
   最近在代码中不小心不规范的，在switch里面定义了块级变量，导致页面在某些浏览器中出错，本文讨论以下switch语句中的块级作用域。

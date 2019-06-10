@@ -53,7 +53,7 @@ switch(number){
 在这个例子中，name虽然没有声明，但是给name赋值相当于给全局的window对象复制，也就是window.name = 'yu'。不会有任何问题。
 
 有意思的问题来了：
-
+```
 let number = 2;
 switch(number){
   case 1:
@@ -63,6 +63,7 @@ switch(number){
     name = 'yu';
     break;
 }
+```
 这个例子中，会报错，会报name未定义的错误。
 
 Uncaught ReferenceError: name is not defined

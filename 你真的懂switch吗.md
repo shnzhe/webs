@@ -43,7 +43,7 @@ Uncaught SyntaxError: Identifier 'name' has already been declared
 ```
 上述两个例子说明确实switch语句中，整个switch语句构成一个块级作用域。而与case无关,每一个case并不会构成一个独立的块级作用域。
 
-##二、switch语句中的块级作用域可能存在的问题
+## 二、switch语句中的块级作用域可能存在的问题
 
   我们知道了switch语句，整个switch语句的顶层是一个块级作用域，但是还要注意case的特殊性，在case中声明的变量，并不会提升到块级作用域中。
 ```

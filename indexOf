@@ -1,0 +1,4 @@
+数组和字符串的indexOf、lastIndexOf
+￼
+说明：indexOf的第二个参数是从下标为index的位置开始（包含）往后搜索
+而lastIndexOf的第二个参数是从下标为index的位置开始（包含）往前搜索
